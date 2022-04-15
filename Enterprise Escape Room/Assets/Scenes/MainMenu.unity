@@ -847,10 +847,15 @@ MonoBehaviour:
     Star Trek interior sets by Ben Grieger & Dale
     C.
 
-    Audio from TrekCore.com'
+    Type 2 Phaser and Tricorder by Ozone
+
+    Communicator by Nase
+
+    Audio
+    from TrekCore.com'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8685fb6fb186da4a96f67b1a0619fef, type: 2}
-  m_sharedMaterial: {fileID: 9109258929682606006, guid: b7975a72499f803469b0ca978e330ff8, type: 2}
+  m_sharedMaterial: {fileID: -7611476811459094461, guid: c8685fb6fb186da4a96f67b1a0619fef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -913,7 +918,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &281257378
@@ -1812,13 +1817,13 @@ MonoBehaviour:
   m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8685fb6fb186da4a96f67b1a0619fef, type: 2}
-  m_sharedMaterial: {fileID: 9109258929682606006, guid: b7975a72499f803469b0ca978e330ff8, type: 2}
+  m_sharedMaterial: {fileID: -7611476811459094461, guid: c8685fb6fb186da4a96f67b1a0619fef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3823,7 +3828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -90}
+  m_AnchoredPosition: {x: 0, y: -122}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1494727458
@@ -4238,7 +4243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d9eaf79a260e59348bbba605a7eef01a, type: 3}
       propertyPath: m_Name
-      value: K7
+      value: SpaceStationK7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9eaf79a260e59348bbba605a7eef01a, type: 3}
@@ -4258,7 +4263,7 @@ GameObject:
   - component: {fileID: 1943975325}
   - component: {fileID: 1943975324}
   m_Layer: 0
-  m_Name: AudioSource
+  m_Name: ComputerChirpAudioSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4434,13 +4439,13 @@ MonoBehaviour:
   m_text: Main Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8685fb6fb186da4a96f67b1a0619fef, type: 2}
-  m_sharedMaterial: {fileID: 9109258929682606006, guid: b7975a72499f803469b0ca978e330ff8, type: 2}
+  m_sharedMaterial: {fileID: -7611476811459094461, guid: c8685fb6fb186da4a96f67b1a0619fef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
