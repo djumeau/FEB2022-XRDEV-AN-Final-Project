@@ -22734,6 +22734,7 @@ GameObject:
   - component: {fileID: 1642143210824075976}
   - component: {fileID: 5790827996937768034}
   - component: {fileID: 2056792110118850435}
+  - component: {fileID: 2518297872975433094}
   m_Layer: 0
   m_Name: Sick Bay Wild Wall
   m_TagString: Untagged
@@ -22741,6 +22742,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2518297872975433094
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2518297872975433093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -419394877774944711, guid: 397eced4c37c78544a2359c48fb1a721, type: 3}
 --- !u!33 &2518882884691535987
 MeshFilter:
   m_ObjectHideFlags: 0
